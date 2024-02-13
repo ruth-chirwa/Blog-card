@@ -92,7 +92,7 @@ img{
 }
 
 /*Screen sizes*/
-@media (min-width: 375px) and (max-width: 1440px){
+@media (min-width: 375px){
     #card{
         width: 340px;
         display: flex;
@@ -114,6 +114,128 @@ img{
         padding: 1rem;
         border-radius: 25px;
     }
+    .card-btn{
+        border: 1px solid transparent;
+        width: 95px;
+        padding: 0.5em;
+        position: relative;
+        left: 15px;
+        top: 4em;
+        background-color: var(--yellow);
+        border-radius: 6px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .card-btn:hover{
+        cursor: pointer;
+        background-color: var(--grey);
+        color: var(--white);
+        
+    }
+    .card-date{
+        position: relative;
+        left: 15px;
+        top: 4.8em;
+    }
+    .card-title{
+        position: relative;
+        left: 15px;
+        top: 4.7em;
+        font-weight: 800;
+        font-size: 18px;
+    }
+    .card-details{
+        position: relative;
+        left: 15px;
+        top: 7em;
+        color: var(--grey);
+        line-height: 1.6rem;
+    }
+    .card-pic{
+        position: relative;
+        left: 0rem;
+        top: 8em;
+        margin-bottom: -60px;
+        width: 70px;
+    }
+    .card-author{
+        position: relative;
+        left: 4rem;
+        top: 9em;
+        font-weight: 600;
+    }
+}
+@media  (max-width: 1440px){
+    #card{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 8px 8px 0px 0px var(--black);
+    }
     
+    body{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    img{
+        width: 350px;
+        position: absolute;
+        top: 4rem;
+        padding: 1rem;
+        border-radius: 25px;
+    }
+    .card-btn{
+        border: 1px solid transparent;
+        width: 95px;
+        padding: 0.5em;
+        position: relative;
+        left: 15px;
+        top: 5em;
+        background-color: var(--yellow);
+        border-radius: 6px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .card-btn:hover{
+        cursor: pointer;
+        background-color: var(--grey);
+        color: var(--white);
+        
+    }
+    .card-date{
+        position: relative;
+        left: 15px;
+        top: 5.8em;
+    }
+    .card-title{
+        position: relative;
+        left: 15px;
+        top: 6em;
+        font-weight: 800;
+        font-size: 18px;
+    }
+    .card-details{
+        position: relative;
+        left: 15px;
+        top: 8em;
+        color: var(--grey);
+        line-height: 1.6rem;
+    }
+    .card-pic{
+        position: relative;
+        left: 0rem;
+        top: 8em;
+        margin-bottom: -60px;
+        width: 70px;
+    }
+    .card-author{
+        position: relative;
+        left: 4rem;
+        top: 9em;
+        font-weight: 600;
+    }
 }
 
