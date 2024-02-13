@@ -24,7 +24,7 @@ body{
 /*Card body*/
 #card{
    border: 1.8px solid var(--black);
-    width: 450px;
+    width: 350px;
     height: 500px;
     margin: 60px auto;
     border-radius: 20px;
@@ -92,7 +92,7 @@ img{
 }
 
 /*Screen sizes*/
-@media (min-width: 360px) and (max-width: 1440px){
+@media (min-width: 375px) and (max-width: 1440px){
     #card{
         width: 340px;
         display: flex;
