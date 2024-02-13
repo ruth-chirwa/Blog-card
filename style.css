@@ -114,7 +114,66 @@ img{
         padding: 1rem;
         border-radius: 25px;
     }
-    
+    #card{
+        border: 1.8px solid var(--black);
+         width: 450px;
+         height: 500px;
+         margin: 60px auto;
+         border-radius: 20px;
+         background-color: var(--white);
+         box-shadow: 8px 8px 0px 0px var(--black);
+        
+     }
+     .card-btn{
+         border: 1px solid transparent;
+         width: 95px;
+         padding: 0.5em;
+         position: relative;
+         left: 15px;
+         top: 4em;
+         background-color: var(--yellow);
+         border-radius: 6px;
+         text-align: center;
+         font-weight: 600;
+     }
+     .card-btn:hover{
+         cursor: pointer;
+         background-color: var(--grey);
+         color: var(--white);
+         
+     }
+     .card-date{
+         position: relative;
+         left: 15px;
+         top: 4.8em;
+     }
+     .card-title{
+         position: relative;
+         left: 15px;
+         top: 4.7em;
+         font-weight: 800;
+         font-size: 18px;
+     }
+     .card-details{
+         position: relative;
+         left: 15px;
+         top: 7em;
+         color: var(--grey);
+         line-height: 1.6rem;
+     }
+     .card-pic{
+         position: relative;
+         left: 0rem;
+         top: 8em;
+         margin-bottom: -60px;
+         width: 70px;
+     }
+     .card-author{
+         position: relative;
+         left: 4rem;
+         top: 9em;
+         font-weight: 600;
+     }
 }
 
 @media (max-width: 280px){
